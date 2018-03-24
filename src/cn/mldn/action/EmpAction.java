@@ -17,6 +17,7 @@ public class EmpAction extends AbstractAction{
 	public void print() {
 		try {
 			ServletObjectUtil.getResponse().getWriter().println("<h1>www.mldn.cn</h1>");
+			System.err.println("hello");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
