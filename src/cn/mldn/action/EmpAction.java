@@ -18,9 +18,10 @@ public class EmpAction extends AbstractAction{
 		try {
 			ServletObjectUtil.getResponse().getWriter().println("<h1>www.mldn.cn</h1>");
 			System.err.println("hello");
+
 		} catch (IOException e) {
-			e.printStackTrace();
-		}
+        e.printStackTrace();
+    }
 	}
 	
 	public ModelAndView list() {	// 做一个增加前的页面跳转处理
